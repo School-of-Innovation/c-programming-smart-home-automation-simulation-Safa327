@@ -16,13 +16,13 @@
  #include <stdio.h>
 #include <stdlib.h>
 
-void initializeSystem(int rooms, int *lights, int *temperature, int *motion, int *locks);
+void initializeSystem(int rooms);
 void displayMenu();
-void controlLights(int rooms, int *lights);
-void readTemperature(int rooms, int *temperature);
-void detectMotion(int rooms, int *motion, int *locks, int *noMotionCount);
-void securitySystem(int rooms, int *locks);
-void analyzeHouseStatus(int rooms, int *lights, int *temperature, int *motion, int *locks);
+void controlLights(int rooms);
+void readTemperature(int rooms);
+void detectMotion(int rooms);
+void securitySystem(int rooms);
+void analyzeHouseStatus(int rooms);
 
 int main() {
     int rooms;
